@@ -24,11 +24,11 @@ export default function LinkCard({ link }: { link: LinkItem }) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={() => trackClick(link.id)}
-      className="block w-full rounded-xl border-2 border-gray-900 bg-white px-5 py-4 text-center font-medium transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 active:translate-y-0 dark:border-gray-100 dark:bg-gray-900"
+      className="flex h-16 w-full flex-col items-center justify-center overflow-hidden rounded-xl border-2 border-gray-900 bg-white px-5 py-4 text-center font-medium transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 active:translate-y-0 dark:border-gray-100 dark:bg-gray-900"
     >
       {link.title}
       {link.description && (
-        <span className="mt-1 block text-xs font-normal text-gray-500 dark:text-gray-400">
+        <span className="mt-0.5 block w-full truncate text-xs font-normal text-gray-500 dark:text-gray-400">
           {link.description}
         </span>
       )}

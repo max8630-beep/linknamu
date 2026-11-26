@@ -12,11 +12,11 @@ export type Profile = {
   image?: string;
 };
 
-// ⚠️ 보여 주기용 더미 값입니다. 나중에 실제 내용으로 바꿔 주세요.
+// 프로필 정보 (링크 목록은 아직 더미 값입니다)
 export const profile: Profile = {
-  name: "홍길동",
-  bio: "더미 소개 문구입니다",
-  image: "/avatar-placeholder.svg",
+  name: "최성웅",
+  bio: "클로드코드 배우는 직장인",
+  image: "/claude-logo.svg",
 };
 
 export const links: LinkItem[] = [
