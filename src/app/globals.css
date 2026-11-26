@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 따뜻한 크림 → 살구 그라데이션 배경 */
+body {
+  background-color: #fff7ef;
+  background-image:
+    radial-gradient(60rem 40rem at 10% -10%, #ffe6d3 0%, transparent 60%),
+    radial-gradient(50rem 40rem at 110% 110%, #fbd5c0 0%, transparent 60%),
+    linear-gradient(160deg, #fffaf3 0%, #fdeee2 55%, #f9e0cf 100%);
+  background-attachment: fixed;
+}
+
+.dark body {
+  background-color: #1a1513;
+  background-image:
+    radial-gradient(60rem 40rem at 10% -10%, #3a2a22 0%, transparent 60%),
+    radial-gradient(50rem 40rem at 110% 110%, #3b2620 0%, transparent 60%),
+    linear-gradient(160deg, #1c1714 0%, #211915 55%, #2a1e19 100%);
+}

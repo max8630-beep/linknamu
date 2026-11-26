@@ -12,7 +12,7 @@ export type Profile = {
   image?: string;
 };
 
-// 프로필 정보 (링크 목록은 아직 더미 값입니다)
+// 프로필 정보와 링크 목록
 export const profile: Profile = {
   name: "최성웅",
   bio: "클로드코드 배우는 직장인",
@@ -20,7 +20,7 @@ export const profile: Profile = {
 };
 
 export const links: LinkItem[] = [
-  { id: "link-1", title: "링크 카드 1", url: "https://example.com/1" },
-  { id: "link-2", title: "링크 카드 2", url: "https://example.com/2" },
-  { id: "link-3", title: "링크 카드 3", url: "https://example.com/3" },
+  { id: "link-1", title: "네일맛집", url: "https://www.instagram.com/nail.laon/" },
+  { id: "link-2", title: "대전맛집1", url: "https://m.blog.naver.com/jyjyjeong/223664888486" },
+  { id: "link-3", title: "대전맛집2", url: "https://www.instagram.com/pastabar.happening/" },
 ];
